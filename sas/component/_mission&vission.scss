@@ -24,6 +24,13 @@
             flex: 1;
             justify-content: center;
         }
+        &-left,
+        &-right{
+            flex: 1;    
+        }
+        img{
+                width: 100%;
+            }
     }
 
     &-vission {
@@ -36,6 +43,13 @@
             @include flex-column;
             flex: 1;
             justify-content: center;
+        }
+        &-left,
+        &-right{
+            flex: 1;
+        }
+        img{
+            width: 100%;
         }
     }
 

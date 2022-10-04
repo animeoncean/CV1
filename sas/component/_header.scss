@@ -41,6 +41,7 @@ header {
                 width: 100%;
                 padding: 5px;
                 background: transparent;
+                outline-style: none;
             }
         }
 
@@ -51,11 +52,11 @@ header {
             div {
                 border-radius: 20px;
                 margin: 5px;
-                padding: 2px;
                 background-color: $primary-color;
                 color: black;
                 p{
                     font-size: 1vw;
+                    padding: 0px 5px 0px 5px;
                 }
             }
         }

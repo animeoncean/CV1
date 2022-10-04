@@ -142,6 +142,7 @@ header .header-left .search-bar input {
   width: 100%;
   padding: 5px;
   background: transparent;
+  outline-style: none;
 }
 header .header-left .popular p {
   font-size: 1.5vw;
@@ -149,12 +150,12 @@ header .header-left .popular p {
 header .header-left .popular div {
   border-radius: 20px;
   margin: 5px;
-  padding: 2px;
   background-color: white;
   color: black;
 }
 header .header-left .popular div p {
   font-size: 1vw;
+  padding: 0px 5px 0px 5px;
 }
 header .header-right {
   display: flex;
@@ -304,6 +305,12 @@ footer .copyright img {
   flex: 1;
   justify-content: center;
 }
+.our-mission-left, .our-mission-right {
+  flex: 1;
+}
+.our-mission img {
+  width: 100%;
+}
 .our-vission {
   display: flex;
   background: url(../../images/poknbgfty.png);
@@ -316,6 +323,12 @@ footer .copyright img {
   flex-direction: column;
   flex: 1;
   justify-content: center;
+}
+.our-vission-left, .our-vission-right {
+  flex: 1;
+}
+.our-vission img {
+  width: 100%;
 }
 
 .recruitment {
@@ -417,6 +430,7 @@ footer .copyright img {
 .job-card .job-option .city div input {
   width: 100%;
   border: none;
+  outline-style: none;
 }
 .job-card .job-option .category label,
 .job-card .job-option .search label,
@@ -495,7 +509,7 @@ main form {
   width: 50%;
   margin: auto;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  background-color: rgba(49, 62, 101, 0.8352941176);
+  background-color: rgba(49, 62, 101, 0.9254901961);
   color: #ECF0F3;
 }
 main form h3 {
@@ -521,6 +535,7 @@ main form .firstname-lastname .name input {
   margin-bottom: 15px;
   width: 97%;
   background-color: #ECF0F3;
+  outline-style: none;
 }
 main form .verification,
 main form .email,
@@ -535,6 +550,7 @@ main form .password input {
   border: none;
   border-radius: 5px;
   margin-bottom: 15px;
+  outline-style: none;
 }
 main form .verification .input-passord,
 main form .email .input-passord,
@@ -548,6 +564,12 @@ main form a:hover {
 main form a {
   color: white;
   margin-left: 5px;
+}
+main form .singUp button a {
+  text-decoration: none;
+}
+main form .singUp button a:hover {
+  color: white;
 }
 
 .card-smal {

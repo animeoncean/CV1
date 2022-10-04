@@ -17,7 +17,7 @@ main {
         width: 50%;
         margin: auto;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-        background-color: #313e65d5;
+        background-color: #313e65ec;
         color:$sub-color;
         h3 {
             text-align: center;
@@ -37,6 +37,7 @@ main {
                     margin-bottom: 15px;
                     width: 97%;
                     background-color: $sub-color;
+                    outline-style: none;
                 }
             }
         }
@@ -50,6 +51,7 @@ main {
             input {
                 @include input;
                 margin-bottom: 15px;
+                outline-style: none;
             }
 
             .input-passord {
@@ -64,5 +66,14 @@ main {
             color: $primary-color;
             margin-left: 5px;
         }
+        .singUp button{
+            a{
+                text-decoration: none;
+            }
+            a:hover{
+                color: $primary-color;
+            }
+        }
+
     }
 }
